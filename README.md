@@ -1,25 +1,25 @@
-# AWS First Project
+# AWS Static Website Project
 
-## Objective
-Document my first AWS cloud architecture project.
+This is my first AWS cloud portfolio project. The goal of this project is to host a simple static website using Amazon S3 and document the steps clearly.
 
-## Architecture
-![Architecture Diagram](diagram_demo_1.jpg)
+## What I Built
 
-## Services Shown
-- User
-- Internet
-- Route 53
-- Amazon S3
+- A basic static website using HTML and CSS
+- A public GitHub repository to track the project
+- A foundation for future AWS hosting and deployment practice
 
-## What I Learned
-- DNS helps users reach cloud resources using domain names.
-- Route 53 manages DNS records in AWS.
-- S3 can host static website files.
-- Cloud projects should be documented with diagrams and explanations.
+## Skills Practiced
 
-## Future Improvements
-- Add CloudFront
-- Add HTTPS with ACM
-- Add a real static website
-- Add deployment steps
+- AWS S3
+- Static website hosting
+- Git and GitHub
+- HTML/CSS
+- Cloud documentation
+
+## Next Improvements
+
+- Upload the website to an S3 bucket
+- Enable static website hosting
+- Configure bucket policy
+- Add screenshots
+- Connect a custom domain later
