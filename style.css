@@ -9,26 +9,31 @@ body {
 header {
   background-color: #1f2937;
   color: white;
-  text-align: center;
   padding: 40px 20px;
+  text-align: center;
+}
+
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
 }
 
 section {
-  background-color: white;
-  max-width: 800px;
-  margin: 30px auto;
+  background: white;
   padding: 25px;
+  margin-bottom: 20px;
   border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2, h3 {
-  color: #1f2937;
+h1, h2 {
+  margin-top: 0;
 }
 
-header h1 {
-  color: white;
-}
-
-ul {
-  line-height: 1.8;
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #e5e7eb;
+  color: #555;
 }
