@@ -36,4 +36,46 @@ footer {
   padding: 20px;
   background-color: #e5e7eb;
   color: #555;
+
+  .project-card {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+.project-card h2 {
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  color: #444;
+  line-height: 1.6;
+}
+
+.project-card ul {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.project-card li {
+  margin-bottom: 6px;
+}
+
+.project-card a {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #222;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.project-card a:hover {
+  background-color: #444;
+}
 }
